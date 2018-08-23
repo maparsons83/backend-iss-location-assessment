@@ -59,7 +59,7 @@ def passover():
     iss_over.penup()
     iss_over.color('yellow')
     iss_over.goto(lon_over, lat_over)
-    iss_over.dot(5)
+    iss_over.dot(7)
     iss_over.hideturtle()
     style = ('Arial', 10, 'bold')
     iss_over.write(time.ctime(indy), font=style)
